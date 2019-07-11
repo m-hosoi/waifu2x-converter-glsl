@@ -26,3 +26,7 @@
 *.exe
 *.out
 *.app
+DerivedData/
+build/waifu2x-converter-glsl.xcodeproj/xcuserdata/
+build/.vs/
+build/waifu2x-converter-glsl.xcodeproj/project.xcworkspace/
