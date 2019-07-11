@@ -40,7 +40,12 @@ static bool loadFile(const char *path, std::string& outstr)
 	std::ifstream file;
 	file.open(path);
 	if (!file.is_open()) {
-		return false;
+        std::string p = "/usr/local/bin/waifu2x-data/";
+        p += path;
+        file.open(p.c_str());
+        if (!file.is_open()) {
+            return false;
+        }
 	}
 	std::istreambuf_iterator<char> it(file);
 	std::istreambuf_iterator<char> last;
