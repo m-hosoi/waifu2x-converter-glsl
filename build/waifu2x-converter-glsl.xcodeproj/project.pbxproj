@@ -330,12 +330,12 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/local/include,
 					"$(SRCROOT)/../include",
-					/usr/local/Cellar/opencv/4.1.0_2/include/opencv4/,
+					/usr/local/Cellar/opencv/4.2.0_1/include/opencv4/,
 				);
 				LIBRARY_SEARCH_PATHS = (
 					/usr/local/lib,
-					/usr/local/Cellar/glfw/3.3/lib,
-					/usr/local/Cellar/opencv/4.1.0_2/lib,
+					/usr/local/Cellar/glfw/3.3.1/lib,
+					/usr/local/Cellar/opencv/4.2.0_1/lib,
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,12 +353,12 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/local/include,
 					"$(SRCROOT)/../include",
-					/usr/local/Cellar/opencv/4.1.0_2/include/opencv4/,
+					/usr/local/Cellar/opencv/4.2.0_1/include/opencv4/,
 				);
 				LIBRARY_SEARCH_PATHS = (
 					/usr/local/lib,
-					/usr/local/Cellar/glfw/3.3/lib,
-					/usr/local/Cellar/opencv/4.1.0_2/lib,
+					/usr/local/Cellar/glfw/3.3.1/lib,
+					/usr/local/Cellar/opencv/4.2.0_1/lib,
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
